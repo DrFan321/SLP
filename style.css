@@ -21,3 +21,6 @@ body {
   label {
     color: white;
   }
+  button {
+    margin: auto;
+  }
