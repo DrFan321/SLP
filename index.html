@@ -6,4 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Use of AI on Education</title>
 </head>
+<body>
+<h1>The Use of AI for Education Purposes</h1>
+<label for="Page">Select Your Page:</label> 
+<select id="Page"> 
+      <option value="">-- Select a Page --</option> 
+      <option value="https://drfan321.github.io/GSDictionary/pages/java.html">Java</option> 
+      <option value="https://drfan321.github.io/GSDictionary/pages/python.html">Python</option> 
+      <option value="https://drfan321.github.io/GSDictionary/pages/html.html">Html</option>
+      <option value="https://drfan321.github.io/Page-Medium/">How Code Applies to Gaming</option>
+    </select> 
+    <button onclick="goToPage()" style="color: green">Go</button> 
+           
+ <script> 
+      function goToPage() { 
+        var selectElement = document.getElementById("Page"); 
+        var selectedUrl = selectElement.value; 
+        window.location.href = selectedUrl; 
+      } 
+    </script> 
+</body>
 </html>
