@@ -1,3 +1,9 @@
+.nav label,
+.nav select,
+.nav button {
+  display: inline-block;
+}
+
 .nav {
   display: flex;
   justify-content: center;
