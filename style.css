@@ -1,3 +1,14 @@
+.fixed-top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.fixed-bottom-right { 
+  position: fixed; 
+  bottom: 0;     
+  right: 0;       
+}
 
 h2 { 
   font-size: 25px;
