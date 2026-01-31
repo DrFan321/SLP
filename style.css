@@ -1,4 +1,7 @@
-
+.hanging-indent {
+  padding-left: 2em;
+  text-indent: -2em;
+}
 h2 { 
   font-size: 25px;
   text-align: center;
