@@ -1,8 +1,7 @@
 .fixed-bottom-right {
-  position: fixed; 
+  position: absolute; 
   bottom: 0;     
   right: 0;       
-}
 }
 h2 { 
   font-size: 25px;
