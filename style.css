@@ -1,3 +1,8 @@
+.main-content-wrapper {
+  min-height: 150vh;
+  position: relative;
+  padding: 20px; 
+}
 .fixed-bottom-right {
   position: absolute; 
   bottom: 0;     
@@ -18,7 +23,9 @@ h3 {
 } 
 
 body {
-   background-color: black;
+  background-color: black;
+  margin: 0;
+  padding: 0;
  }
 
    h1, h2, h3, h4, h5, h6, p, ul, ol, li {
