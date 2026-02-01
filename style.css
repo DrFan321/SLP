@@ -1,14 +1,7 @@
-.main-content-wrapper {
-  min-height: 150vh;
-  position: relative;
-  padding: 20px; 
-}
 .fixed-bottom-right {
-  position: absolute;
-    bottom: 20px; 
-    right: 20px;   
-    width: 100px;  
-    height: auto;
+  float: right;
+  width: 200px;
+  margin: 0 0 10px 10px;
 }
 h2 { 
   font-size: 25px;
@@ -39,3 +32,4 @@ body {
   button {
     margin: auto;
   }
+
